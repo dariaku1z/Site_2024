@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Персидские Кошки</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('Lib/background.jpg'); /* Фоновое изображение */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: black; /* Цвет текста установлен на черный */
+            padding: 20px;
+            margin: 0;
+        }
+        h1, h2 {
+            text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7); /* Тень для выделения текста */
+        }
+        .flex-container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .image {
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        .description {
+            background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
+            padding: 20px;
+            border-radius: 10px; /* Скругляем углы фона */
+            text-align: left; /* Выравниваем текст по левому краю */
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Персидские Кошки</h1>
+    <div class="flex-container">
+        <img class="image" src="Lib/persian.jpg" alt="Персидская кошка" width="300"> <!-- Замените на ваше изображение -->
+        <div class="description">
+            <p>Персидская кошка известна своей длинной и роскошной шерстью, что требует регулярного ухода. Эта порода обладает спокойным и дружелюбным характером.</p>
+
+            <p>Персидские кошки идеально подходят для домашних условий, и многие владельцы ценят их миролюбивую натуру. Они любят проводить время с хозяевами, но не против и нескольких часов покоя.</p>
+            <p>Обладая мягким и нежным характером, эти кошки становятся неотъемлемой частью семьи.</p>
+        </div>
+    </div>
+
+    <button onclick="location.href='index.html'">На главную страницу</button>
+
+</body>
+</html>

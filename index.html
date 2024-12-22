@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Коты - Главная страница</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('Lib/background.jpg'); /* Фоновое изображение */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: black; /* Цвет текста установлен на черный */
+            padding: 20px;
+            margin: 0;
+        }
+        h1, h2 {
+            text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7); /* Тень для выделения текста */
+        }
+        .flex-container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .image {
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+        li {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Добро пожаловать в мир котов!</h1>
+    <h2>Узнайте больше о различных породах!</h2>
+
+    <div class="flex-container">
+        <img class="image" src="Lib/cat1.jpg" alt="Кот" width="300"> <!-- Замените на ваше изображение -->
+        <ul>
+            <li><a href="siamese.html" style="color: black;">Сиамские кошки</a>: Известны своим умным и общительным характером.</li>
+            <li><a href="persian.html" style="color: black;">Персидские кошки</a>: Обладают длинной шерстью и спокойным нравом.</li>
+        </ul>
+    </div>
+
+    <button onclick="location.href='siamese.html'">Узнать о сиамских кошках</button>
+    <button onclick="location.href='persian.html'">Узнать о персидских кошках</button>
+
+</body>
+</html>
